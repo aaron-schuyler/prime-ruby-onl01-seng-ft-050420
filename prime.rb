@@ -5,7 +5,11 @@ def prime?(n)
     i = 2
     while i < n do
       if n % i == 0
-        return
+        false
+        i+=1
+      else
+        true
+      end
     end
   end
 end
