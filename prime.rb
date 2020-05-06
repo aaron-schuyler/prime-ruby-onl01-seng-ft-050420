@@ -8,6 +8,7 @@ def prime?(n)
     while i < n do
       if n % i == 0
        prime =false
+       break
       else
        prime = true
       end
