@@ -6,10 +6,10 @@ def prime?(n)
     while i < n do
       if n % i == 0
         false
-        i+=1
       else
         true
       end
+    i+=1
     end
   end
 end
