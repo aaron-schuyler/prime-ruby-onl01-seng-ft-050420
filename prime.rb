@@ -5,7 +5,7 @@ def prime?(n)
     prime = true
   else
     i = 2
-    while i <= n do
+    while i < n do
       if n % i == 0
        prime =false
       else
