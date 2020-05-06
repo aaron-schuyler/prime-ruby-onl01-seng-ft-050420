@@ -1,15 +1,16 @@
 def prime?(n)
   if n <= 1
-    false 
+    prime = false 
   else
     i = 2
     while i < n do
       if n % i == 0
-        false
+       prime =false
       else
-        true
+       prime = true
       end
     i+=1
     end
   end
+  prime
 end
