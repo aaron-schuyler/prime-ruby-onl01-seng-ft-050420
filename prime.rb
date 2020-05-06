@@ -1,8 +1,6 @@
 def prime?(n)
   if n <= 1
     prime = false 
-  elsif n == 2
-    prime = true
   else
     i = 2
     while i < n do
