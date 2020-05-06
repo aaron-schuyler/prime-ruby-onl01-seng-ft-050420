@@ -1,8 +1,8 @@
-def prime?(arg)
-  if arg <= 1
+def prime?(n)
+  if n <= 1
     false 
   else
     i = 2
-    while i 
+    while i < n
   end
 end
