@@ -3,6 +3,9 @@ def prime?(n)
     false 
   else
     i = 2
-    while i < n
+    while i < n do
+      if n % i == 0
+        return
+    end
   end
 end
